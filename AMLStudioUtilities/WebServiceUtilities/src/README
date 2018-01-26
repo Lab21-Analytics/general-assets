@@ -1,0 +1,3 @@
+This directory is just for software testing.
+
+When a zip is uploaded to Azure ML Studio then all files are in "src" folder and this is what we ar trying to simulate here.
