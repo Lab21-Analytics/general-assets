@@ -27,7 +27,7 @@ Param(
 	[Security.SecureString] $Password
 )
 
-# .\CreateVMOSSnapShot.ps1 -SubscriptionName "Microsoft Azure Enterprise" -SourceResourceGroup "davidpitcherrg" -SourceVMName "demoBU" -TargetResourceGroup "davidpitcherrg" -TargetResourceGroupLocation "westus2" -UserName "david.pitcher@hclazureerssdeshcl.onmicrosoft.com"
+# .\CreateVMOSSnapShot.ps1 -SubscriptionName "Microsoft Azure Enterprise" -SourceResourceGroup "rgname" -SourceVMName "vmname" -TargetResourceGroup "targetrg" -TargetResourceGroupLocation "westus2" -UserName "username@domain.onmicrosoft.com"
 
 #region Script Setup
 Set-StrictMode -Version Latest
