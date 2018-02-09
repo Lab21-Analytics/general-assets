@@ -26,7 +26,7 @@ Param(
 	[Parameter(ParameterSetName="WithCredentials", Mandatory=$true, ValueFromPipeline=$true, Position=5)]
 	[Security.SecureString] $Password
 )
-# .\ReCreateVMFromSnapShot.ps1 -SubscriptionName "Microsoft Azure Enterprise" -SourceResourceGroup "davidpitcherrg" -SourceVMName "demoBU" -TargetResourceGroup "davidpitcherrg" -UserName "david.pitcher@hclazureerssdeshcl.onmicrosoft.com"
+# .\ReCreateVMFromSnapShot.ps1 -SubscriptionName "Microsoft Azure Enterprise" -SourceResourceGroup "rgname" -SourceVMName "vmname" -TargetResourceGroup "targetrg" -UserName "username@domain.onmicrosoft.com"
 #region Script Setup
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
