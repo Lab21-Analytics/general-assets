@@ -13,7 +13,7 @@ userName = 'username@azureaddomain.com'                 #Replace with Azure AD U
 
 #region Key Vault Connection
 #--------------------------------------------------------
-# Connection to Azure Key Value
+# Connection to Azure Key Vault
 #--------------------------------------------------------
 userCredential = UserPassCredentials(userName, getpass.getpass(prompt = 'Azure AD Password: '))
 kvClient = KeyVaultClient(userCredential)
